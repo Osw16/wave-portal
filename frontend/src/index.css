@@ -1,0 +1,32 @@
+body {
+  border-bottom:50px solid lime;
+ background: rgba(251,1,255,1);
+background: -moz-linear-gradient(top, rgba(251,1,255,1) 0%, rgba(239,1,124,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(251,1,255,1)), color-stop(100%, rgba(239,1,124,1)));
+background: -webkit-linear-gradient(top, rgba(251,1,255,1) 0%, rgba(239,1,124,1) 100%);
+background: -o-linear-gradient(top, rgba(251,1,255,1) 0%, rgba(239,1,124,1) 100%);
+background: -ms-linear-gradient(top, rgba(251,1,255,1) 0%, rgba(239,1,124,1) 100%);
+background: linear-gradient(to bottom, rgba(251,1,255,1) 0%, rgba(239,1,124,1) 100%); 
+background-repeat: no-repeat;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb01ff', endColorstr='#ef017c', GradientType=0 );
+  height: 400px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+div .bio{
+  color:aqua;
+}
+div .txn-number{
+  text-align: center;
+  padding:5px;
+  background-color:aqua;
+}
